@@ -1,0 +1,309 @@
+/*
+	Theme name: Ebimeet-panel;
+	Theme URI: Ebimeet-panel.com;
+	Author name: Sayhum Kayes;
+	Author URI: facebook.com/sayhumkayes;
+	Description: .... ;
+	Version: 2.0;
+*/
+/*
+	INDEX:
+	1.0 - Header Area
+	1.1 - Header Left Area
+	1.2 - Header Right Area
+	2.0 - Body Section Area
+	2.1 - Menu Area
+	2.2 - Prolie Area	
+*/
+
+/*Typography*/
+body, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Roboto', sans-serif;
+	outline: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 700;
+}
+p {
+	margin: 0;
+	font-weight: 400;
+}
+a {
+	text-decoration: none;
+	outline: 0;
+}
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, 
+.col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, 
+.col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, 
+.col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, 
+.col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, 
+.col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, 
+.col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, 
+.col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, 
+.col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+/* 1.0 Header Area */
+header {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+/* 1.1 Header Left Area */
+.left {
+	background: #22262e;
+	padding-top: 10px;
+	overflow: hidden;
+}
+.left img {
+	padding: 5px 5px 5px 10px;
+}
+.left .home {
+	padding: 5px 5px;
+	background: #0d0f12;	
+}
+.left .fas {
+	color: #ffffff;
+	transition: 1s;
+}
+.left .envelope {
+	padding: 5px 5px;
+	background: #1b1e24;
+}
+.left .far {
+	color: #e5e9ec;
+	transition: 1s;
+}
+.left .fas:hover,
+.left .far:hover {
+	color: darkorange;
+}
+.left .envelope .badge {
+  	position: absolute;
+	top: 12px;
+	padding: 1px 3px;
+	border-radius: 50%;
+	background: #f2742b;
+	color: white;
+	right: 9px;
+}
+
+/* 1.2 Header Right Area */
+.right {
+	height: 55px;
+	float: left;
+}
+.vl {
+  	border-left: 0.5px solid #595959;
+  	height: 17px;
+	opacity: 0.2;
+	position: absolute;
+	margin-left: 68px;
+	margin-top: 3px;
+}
+.right .r-left {
+	display: flex;
+}
+.r-left {
+	padding-left: 20px;
+	padding: 15.5px 15px;
+}
+.r-left a {
+	padding: 0 10px;
+}
+.r-left a i {
+	color: #4c5264;
+	transition: 1s;
+}
+.r-left a i:hover {
+	color: darkorange;
+}
+.r-right {
+	display: flex;
+	padding-left: 65px;
+}
+.vl-2 {
+  	border-left: 1.5px solid #595959;
+  	height: 20px;
+	opacity: 0.5;
+	position: absolute;
+	top: 19px;
+}
+.r-right a {
+	text-decoration: none;
+	border: 0;
+}
+.r-right a h4 {
+	font-size: 15px;
+	color: #1b1e24;
+	font-weight: 200;
+	padding-top: 20px;
+	padding-left: 25px;
+}
+.r-right .img {
+	padding: 7px 15px 0 15px; 
+}
+.vl-3 {
+  	border-left: 1px solid #595959;
+  	height: 17px;
+	opacity: 0.3;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 225px;
+}
+.r-right .message {
+	padding-top: 16px;
+	padding-left: 15px;
+}
+.r-right .fa-cog {
+	padding-top: 22px;
+	color: #4c5264;
+	transition: 1s;
+}
+.r-right .fa-cog:hover {
+	color: darkorange;
+}
+.r-right .message .badge {
+	position: absolute;
+	top: 12px;
+	right: 23px;
+	padding: 2px 5px;
+	border-radius: 50%;
+	background: #f2742b;
+	color: #ffffff;
+}
+
+/* 2.0 Body Section Area */
+section {
+	margin: 0;
+	padding: 0;
+	height: 91vh;
+	background: #e5e9ec;
+}
+.main-header {
+	background: #1b1e24;
+	padding: 35px 0 0 0;
+	height: 91vh;
+	border-top: 1px solid #4e5157;
+}
+
+/* 2.1 Menu Area */
+.menu {
+	width: 100%;
+	margin: 0;
+}
+.menu ul {
+	width: 100%;
+}
+.menu ul li {
+	padding: 7px 0 7px 16px;
+	cursor: pointer;
+	transition: 1s;
+}
+.menu ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 12px;
+}
+.menu ul li:hover {
+	background: #22262e;
+}
+.active {
+	background: #22262e;
+}
+.logoff {
+	width: 100%;
+	margin-top: 157px;
+	padding: 10px 50px 12px 30px;
+	background: #22262e;
+	font-size: 12px;
+}
+
+/* 2.2 Prolie Area */
+.prolie {
+	
+}
+.head {
+	background: #1b1e24;
+	height: 30%;
+	margin: 10px 5px 0 20px;
+}
+.head img {
+	margin: 145px 0 0 25px;
+	border: 5px solid #ffffff;
+	border-radius: 50%;
+	background: #ffffff;
+}
+.prolie2 {
+	background: #ffffff;
+	margin: 0 5px 0 20px;
+	height: 65%;
+}
+.detail {
+	background: #f2f4f6;
+	margin: 20px 0 0 90px;
+	padding-left: 5px;
+	height: 30%;
+
+}
+.detail h6 {
+	font-size: 11px;
+	color: #c2c2c2;
+	padding-top: 20px;
+}
+.detail p {
+	font-size: 11px;
+	color: #c2c2c2;
+	padding-bottom: 20px;
+}
+.detail a {
+	text-decoration: none;
+	font-size: 10px;
+	transition: 1s;
+	color: #c2c2c2;
+}
+.detail a:hover {
+	color: #111111;
+}
+.pic {
+	margin: 20px 0 0 0;
+	padding-left: 3px;
+}
+.pic h6 {
+	font-size: 11px;
+	padding-top: 16px;
+}
+.detail2 {
+	margin: 20px 0 0 0;
+	padding-left: 3px;
+
+}
+.detail2 h6 {
+	font-size: 11px;
+	color: #c2c2c2;
+	padding-top: 16px;
+	padding-bottom: 10px;
+}
+.detail2 p {
+	font-size: 11px;
+	color: #c2c2c2;
+	padding-bottom: 20px;
+}
